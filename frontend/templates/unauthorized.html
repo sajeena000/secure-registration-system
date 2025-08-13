@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied - CyberSecurity</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <div class="unauthorized-container">
+        <i class="fas fa-exclamation-triangle" style="font-size: 5rem; color: var(--error-color); margin-bottom: 1.5rem;"></i>
+        <h1>Access Denied</h1>
+        <p>You must be logged in to view this page. Your session may have expired.</p>
+        <a href="/" class="btn-primary">Go to Login Page</a>
+    </div>
+</body>
+</html>

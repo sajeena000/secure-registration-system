@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Account - CyberSecurity</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <div class="not-found-container">
+        <i id="status-icon" class="fas fa-spinner fa-spin" style="font-size: 5rem; color: var(--primary-light); margin-bottom: 1.5rem;"></i>
+        <h1 id="status-heading">Verifying Your Account...</h1>
+        <p id="status-message">Please wait while we process your verification.</p>
+        <div id="action-button-container" style="display: none;">
+            <a href="/" class="btn-primary">Go to Login</a>
+        </div>
+    </div>
+    <script>
+        const verificationToken = "{{ token }}";
+    </script>
+    <script src="{{ url_for('static', path='/js/app.js') }}"></script>
+</body>
+</html>

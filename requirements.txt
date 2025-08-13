@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+jinja2
+aiofiles
+sqlalchemy
+pydantic-settings
+pydantic[email]
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+opencv-python-headless
+numpy
+fastapi-mail
+fastapi-csrf-protect
