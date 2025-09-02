@@ -1,6 +1,6 @@
 # Secure Registration System 
 
-This project is a prototype secure user registration system developed for Assignment 2 of the CET324 – Advanced CyberSecurity module at the University of Sunderland.
+This project is a prototype secure user registration system.
 The application is built using Python and the FastAPI framework. It demonstrates the practical application of key cybersecurity principles in a web application context, focusing on secure user onboarding processes.
 
 # Features
